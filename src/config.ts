@@ -155,7 +155,7 @@ So, buckle up, because this IT guru is not just about business; I'm here for a g
     ],
   },
   connect: {
-    description: `I'm always interested in meeting new people and learning new things. Feel free to connect with me on any of the following platforms.`, // Markdown is supported
+    description: `I'm always interested in meeting new people and learning new things. Feel free to drop me mail.`, // Markdown is supported
     links: socialLinks,
   },
 };
