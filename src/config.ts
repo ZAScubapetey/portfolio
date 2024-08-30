@@ -50,7 +50,8 @@ export const homePageContent: HomePageContent = {
   },
   role: "IT Manager and Labour Relations",
   description:
-    "Hey there! I'm an IT solutions expert and entrepreneur. I thrive on making things tick in the tech world and have a knack for turning chaos into order. With a solid background in system administration, data analysis, and team leadership, I'm rather useful to turn your IT problems into solutions.",
+    `Hey there! I'm an IT solutions expert and entrepreneur. <br>
+    I thrive on making things tick in the tech world and have a knack for turning chaos into order.  <br>With a solid background in system administration, data analysis, and team leadership, I'm rather useful to turn your IT problems into solutions. `,
   socialLinks: socialLinks,
   links: [
     {
@@ -155,7 +156,7 @@ So, buckle up, because this IT guru is not just about business; I'm here for a g
     ],
   },
   connect: {
-    description: `I'm always interested in meeting new people and learning new things. Feel free to drop me mail.`, // Markdown is supported
+    description: `Do you have questions? I might have answers. Pop me a mail and let's find out`, // Markdown is supported
     links: socialLinks,
   },
 };
@@ -190,19 +191,20 @@ export const projectsPageContent: ProjectPageContent = {
       year: "Jun 2016 - Present",
       url: "https://www.nohire.co.za",
     },
-    {
-      title: "Tierkat Wine Awards",
-      description: "A prestigious award, the Tierkat Award is carefully given to wines that are of excellent quality and enjoyable but at an affordable price.<br/><br/>Technology used: CPanel, HTML, CSS, Javascript, GitHub",
-      image: "/Tierkat.jpg",
-      year: "Jun 2022 - Present",
-      url: "https://www.tierkat.co.za",
-    },
+    
     {
       title: "Nostay Short-Term Rental Database",
       description: "NoStay is a platform where companies in the same industry can share data in a controlled and secured environment to mitigate the risk of fraudulent behaviour and theft through collaboration of all stakeholders and industry players. <br/> For this project, I researched with clients to understand their needs in the industry. I provided training and support with suggested improvements and resolved any issues. We built a secure database and sharing platform that cannot be used for marketing purposes. <br/><br/>Technology used: AWS EC2, PHP, Nginx, MySQL RDS, Route 53, HTML, CSS, GitHub",
       image: "/Nostay.jpg",
       year: "Jun 2016 - Present",
       url: "https://www.nostay.co.za",
+    },
+    {
+      title: "Tierkat Wine Awards",
+      description: "A prestigious award, the Tierkat Award is carefully given to wines that are of excellent quality and enjoyable but at an affordable price.<br/><br/>Technology used: CPanel, HTML, CSS, Javascript, GitHub",
+      image: "/Tierkat.jpg",
+      year: "Jun 2022 - Present",
+      url: "https://www.tierkat.co.za",
     },
   ],
 };
