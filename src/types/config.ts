@@ -14,6 +14,7 @@ export type SocialLink = {
 export type Identity = {
   name: string;
   logo: string;
+  person: string;
   email: string;
 };
 

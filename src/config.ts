@@ -9,9 +9,10 @@ import type {
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "Tim Witzdam",
-  logo: "/logo.webp",
-  email: "tim@witzdam.com",
+  name: "Lee Bezuidenhout",
+  logo: "/favicon-32x32.png",
+  person:"/Lee.jpg",
+  email: "Lee@bezuidenhout.net.za",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -27,22 +28,14 @@ export const navBarLinks: NavBarLink[] = [
     title: "Projects",
     url: "/projects",
   },
-  {
-    title: "Blog",
-    url: "/blog",
-  },
+ 
 ];
 
 export const socialLinks: SocialLink[] = [
-  {
-    title: "GitHub",
-    url: "https://github.com/TimWitzdam",
-    icon: "mdi:github",
-    external: true,
-  },
+  
   {
     title: "Mail",
-    url: "mailto:tim@witzdam.com",
+    url: "mailto:Lee@bezuidenhout.net.za",
     icon: "mdi:email",
   },
 ];
@@ -50,14 +43,14 @@ export const socialLinks: SocialLink[] = [
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Tim Witzdam",
+    title: "Lee Bezuidenhout",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Dedicated and results-driven IT Manager and Business owner with experience in managing operations",
     image: identity.logo,
   },
-  role: "Student & Software Developer",
+  role: "IT Manager and Labour Relations",
   description:
-    "I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.",
+    "Hey there! I'm your go-to IT maestro and proud business owner. I thrive on making things tick in the tech world and have a knack for turning chaos into order. With a solid background in system administration, data analysis, and team leadership, I'm here to turn your IT dreams into reality.",
   socialLinks: socialLinks,
   links: [
     {
@@ -74,47 +67,87 @@ export const homePageContent: HomePageContent = {
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Tim Witzdam",
+    title: "About | Lee Bezuidenhout",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+     "Dedicated and results-driven IT Manager and Business owner with experience in managing operations",
     image: identity.logo,
   },
   subtitle: "Some information about myself",
   about: {
     description: `
-I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.
+Hey there! I'm your go-to IT maestro and proud business owner. I thrive on making things tick in the tech world and have a knack for turning chaos into order. 
 <br/><br/>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
-Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
+With a solid background in system administration, data analysis, and team leadership, I'm here to turn your IT dreams into reality.
+<br/><br/>
+But hey, life isn't just about codes and algorithms, right? When I'm not juggling bytes and bits, you'll find me lost in the fantastical realms of science fiction and fantasy. And let's not forget my soft spot for a glass of wine and whipping up some epic new dishes in the kitchen. Practical problem-solving is my jam, especially when the braaivleis fire is roaring!
+<br/><br/>
+Tech is my playground, and I'm always on the lookout for the latest and greatest. Lately, I've been diving into the expansive world of AWS infrastructure – talk about a digital adventure!
+`, // Markdown is supported
     image_l: {
-      url: "/demo-1.jpg",
+      url: "/collage.jpg",
       alt: "Left Picture",
     },
     image_r: {
-      url: "/demo-1.jpg",
+      url: "/Lee.jpg",
       alt: "Right Picture",
     },
   },
   work: {
-    description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
+    description: `I've worked with in variety of roles and gained various different skills to use. Here are some of the places I've worked at and expanded my  horizons.`, // Markdown is supported
     items: [
       {
-        title: "Software Developer",
+        title: "IT Manager and Labour Relations",
         company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          name: "Lazena Poultry",
+          image: "/lazena.webp",
+          url: "",
         },
-        date: "2021 - Present",
+        date: "Mar 2018 - Present",
       },
       {
-        title: "Software Developer",
+        title: "Sales and Technical Support",
         company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          name: "Cloud Ops (Pty) Ltd",
+          image: "/PSA-logo.png",
+          url: "#",
         },
-        date: "2019 - 2021",
+        date: "Apr 2016 - Mar 2023",
+      },
+      {
+        title: "Sales and Technical Rep",
+        company: {
+          name: "Abaserve - Megasolve",
+          image: "/megasolve.jpg",
+          url: "https://megasolve.co.za/",
+        },
+        date: "Jun 2015 - Feb 2018",
+      },
+      {
+        title: "Account Manager",
+        company: {
+          name: "Compuscan Pty LTD",
+          image: "/compuscan.jpg",
+          url: "https://www.experian.co.za/",
+        },
+        date: "Feb 2012 - May 2015",
+      },
+      {
+        title: "Helpdesk Support Staff",
+        company: {
+          name: "Compuscan Pty LTD",
+          image: "/compuscan.jpg",
+          url: "https://www.experian.co.za/",
+        },
+        date: "Mar 2009 - Jan 2012",
+      },
+      {
+        title: "Radio Host",
+        company: {
+          name: "MFM Community Radio Station",
+          image: "/mfm.jpg",
+          url: "https://mfm.co.za/",
+        },
+        date: "May 2008 - Jan 2012",
       },
     ],
   },
@@ -127,32 +160,46 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Tim Witzdam",
-    description: "Check out what I've been working on.",
+    title: "Projects | Lee Bezuidenhout",
+    description: "Check out what I've been working on recently.",
     image: identity.logo,
   },
-  subtitle: "Check out what I've been working on.",
+  subtitle: "Check out what I've been working on rrecently.",
   projects: [
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
+      title: "API Development for TXD Systems",
+      description: 'Custom-built API developed in Python with FastApi using JWT bearer tokens and Bcrypt to store user details to gain access to temperature monitoring system hosting in a mariaDB. <br/>For this project, I had to gain experience in database design and best practices to keep your database simple and efficient. <br/>The project will be launched in the next few months as the company still needs to finalize the hardware system. <br/><br/> Technology used: Python, FastAPI, Nginx, MariaDB, Docker',
+      image: "/txdapi.jpg",
+      year: "May 2024 - Present",
+      url: "https://api.gomtor.co.za/docs",
     },
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
+      title: "Moodle Development",
+      description: "Research, implement, and set up an LMS for a client (Mediation Academy) who required an enterprise-level system for their custom-developed internationally accredited Mediator Training course.<br/> I had to research hosting platforms to deploy the system as well as learn about the LMS space and best practices regarding security and hosting requirements. <br/><br/>Technology used: AWS, Moodle, Apache, PHP, CSS, 0Auth (Google)",
+      image: "/Moodle.jpg",
+      year: "Jun 2023 - Present",
+      url: "https://lms.mediationacademy.co.za",
     },
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
+      title: "Nohire Anti-Fraud Database",
+      description: "Nohire.co.za is an anti-fraud database and search system built for the tool hire industry of South Africa. <br/>For this project, I researched with clients to understand their needs in the industry. I provided training and support with suggested improvements and resolved any issues. We built a secure database and sharing platform that cannot be used for marketing purposes. <br/>This system is being used by the majority of South Africa's tool hire industry with enormous success in combating theft and fraud while keeping the client’s information secure and safe.<br/><br/> Technology used: AWS EC2, PHP, Nginx, MySQL RDS, Route 53, HTML, CSS, GitHub",
+      image: "/Nohire.jpg",
+      year: "Jun 2016 - Present",
+      url: "https://www.nohire.co.za",
+    },
+    {
+      title: "Tierkat Wine Awards",
+      description: "A prestigious award, the Tierkat Award is carefully given to wines that are of excellent quality and enjoyable but at an affordable price.<br/><br/>Technology used: CPanel, HTML, CSS, Javascript, GitHub",
+      image: "/Tierkat.jpg",
+      year: "Jun 2022 - Present",
+      url: "https://www.tierkat.co.za",
+    },
+    {
+      title: "Nostay Short-Term Rental Database",
+      description: "NoStay is a platform where companies in the same industry can share data in a controlled and secured environment to mitigate the risk of fraudulent behaviour and theft through collaboration of all stakeholders and industry players. <br/> For this project, I researched with clients to understand their needs in the industry. I provided training and support with suggested improvements and resolved any issues. We built a secure database and sharing platform that cannot be used for marketing purposes. <br/><br/>Technology used: AWS EC2, PHP, Nginx, MySQL RDS, Route 53, HTML, CSS, GitHub",
+      image: "/Nostay.jpg",
+      year: "Jun 2016 - Present",
+      url: "https://www.nostay.co.za",
     },
   ],
 };
@@ -160,7 +207,7 @@ export const projectsPageContent: ProjectPageContent = {
 // Blog (/blog)
 export const blogPageContent: BlogPageContent = {
   seo: {
-    title: "Blog | Tim Witzdam",
+    title: "Blog | Lee Bezuidenhout",
     description: "Thoughts, stories and ideas.",
     image: identity.logo,
   },
