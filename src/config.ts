@@ -38,6 +38,13 @@ export const socialLinks: SocialLink[] = [
     url: "mailto:Lee@bezuidenhout.net.za",
     icon: "mdi:email",
   },
+  {
+    title: "LinkedIn",
+    url: "https://www.linkedin.com/in/lee-bezuidenhout-8697b165/",
+    icon: "mdi:linkedin",
+  },
+  
+
 ];
 
 // Home (/)

@@ -2,6 +2,9 @@
 import Layout from "../layouts/Layout.astro";
 import { projectsPageContent } from "../config";
 import ProjectCard from "../components/ProjectCard.astro";
+import { aboutPageContent } from "../config";
+import { Markdown } from "@astropub/md";
+import SocialLinkBox from "../components/SocialLinkBox.astro";
 ---
 
 <Layout seo={projectsPageContent.seo}>
@@ -14,6 +17,21 @@ import ProjectCard from "../components/ProjectCard.astro";
           <ProjectCard {...project} />
         ))
       }
+    </div>
+  </section>
+  <section class="mt-8 max-w-4xl mx-auto px-6 sm:flex sm:gap-16">
+    <h2 class="mb-8 sm:mb-0 opacity-60">Connect</h2>
+    <div>
+      <div class="mb-6">
+        <Markdown of={aboutPageContent.connect.description} />
+      </div>
+      <div class="grid grid-cols-2 gap-2 group">
+        {
+          aboutPageContent.connect.links.map((item) => (
+            <SocialLinkBox {...item} />
+          ))
+        }
+      </div>
     </div>
   </section>
 </Layout>
