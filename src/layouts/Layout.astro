@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import { Icon } from "astro-icon/components";
 import { navBarLinks, identity } from "../config";
+import Footer from '../components/Footer.astro';
 import type { SEOInfo } from "../types/config";
 
 interface Props {
@@ -121,6 +122,7 @@ const { seo } = Astro.props;
           <a
             href=`mailto:${identity.email}`
             class="block p-2 opacity-60 hover:opacity-100 transition-opacity"
+            target="_blank"
             aria-label="Email"
           >
             <Icon name="mdi:email" width={20} height={20} />
@@ -131,7 +133,9 @@ const { seo } = Astro.props;
     <main class="mb-32">
       <slot />
     </main>
-    <footer></footer>
+    
+      <Footer />
+    
   </body>
 </html>
 
