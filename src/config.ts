@@ -50,7 +50,7 @@ export const homePageContent: HomePageContent = {
   },
   role: "IT Manager and Labour Relations",
   description:
-    "Hey there! I'm your go-to IT maestro and proud business owner. I thrive on making things tick in the tech world and have a knack for turning chaos into order. With a solid background in system administration, data analysis, and team leadership, I'm here to turn your IT dreams into reality.",
+    "Hey there! I'm an IT solutions expert and entrepreneur. I thrive on making things tick in the tech world and have a knack for turning chaos into order. With a solid background in system administration, data analysis, and team leadership, I'm rather useful to turn your IT problems into solutions.",
   socialLinks: socialLinks,
   links: [
     {
@@ -75,13 +75,16 @@ export const aboutPageContent: AboutPageContent = {
   subtitle: "Some information about myself",
   about: {
     description: `
-Hey there! I'm your go-to IT maestro and proud business owner. I thrive on making things tick in the tech world and have a knack for turning chaos into order. 
-<br/><br/>
-With a solid background in system administration, data analysis, and team leadership, I'm here to turn your IT dreams into reality.
-<br/><br/>
-But hey, life isn't just about codes and algorithms, right? When I'm not juggling bytes and bits, you'll find me lost in the fantastical realms of science fiction and fantasy. And let's not forget my soft spot for a glass of wine and whipping up some epic new dishes in the kitchen. Practical problem-solving is my jam, especially when the braaivleis fire is roaring!
+Life isn't just about codes and algorithms, right? When I'm not juggling bytes and bits, you'll find me lost in the fantastical realms of science fiction and fantasy. And let's not forget my soft spot for a glass of wine and whipping up some epic new dishes in the kitchen. Practical problem-solving is my jam, especially when the braaivleis fire is roaring!
 <br/><br/>
 Tech is my playground, and I'm always on the lookout for the latest and greatest. Lately, I've been diving into the expansive world of AWS infrastructure – talk about a digital adventure!
+Adventures aren't just confined to the digital realm, though. I'm a workshop warrior, having recently tried my hand at Radio Presenting and News Reading, taking me back to the good ol' days at MFM Radio in Stellenbosch. But wait, there's more – I'm also into 3D printing, cultivating my own veggies, chasing bass on the weekends, and holding the fort as a licensed Radio Amateur (call me ZS1GWL).
+<br/><br/>
+Oh, did I mention the brainchild that is Greatvibes.co.za? It's my personal review hub where I spill the tea on what I read, drink, and eat. Because, you know, opinions are like butts – and now mine is waving hello on the internet.
+<br/><br/>
+When I'm not glued to screens, I'm rolling dice and slaying dragons with my Dungeons and Dragons crew since 2018. We've conquered dungeons, vanquished foes, and laughed our way through countless campaigns. And let's not forget my family – I love making them laugh, even if it means subjecting them to my terrible dad jokes.
+<br/><br/>
+So, buckle up, because this IT guru is not just about business; I'm here for a good time, a great laugh, and a fantastic adventure!
 `, // Markdown is supported
     image_l: {
       url: "/collage.jpg",

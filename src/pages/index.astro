@@ -16,10 +16,10 @@ posts.splice(2)
 ---
 
 <Layout seo={homePageContent.seo}>
-  <section class="mt-10 max-w-2xl mx-auto px-6">
-    <h1 class="font-bold text-3xl mb-1">{identity.name}</h1>
-    <p class="opacity-60 mb-10">{homePageContent.role}</p>
+  <section class="mt-10 max-w-4xl mx-auto px-6">
+   
     <div class="flex flex-col min-[520px]:flex-row gap-6 mb-8">
+      
       <Image
       src={identity.person}
         alt={identity.name}
@@ -27,6 +27,9 @@ posts.splice(2)
         height={100}
         class="rounded-full"
       />
+      <div><h1 class="font-bold text-3xl mb-1">{identity.name}</h1>
+        <p class="opacity-60 mb-10">{homePageContent.role}</p>
+      </div>
       <div class="group flex flex-col justify-center gap-2 w-fit">
         {
           homePageContent.socialLinks.map((link) => (
@@ -40,7 +43,7 @@ posts.splice(2)
         }
       </div>
     </div>
-    <p class="max-w-md mb-8">
+    <p class="max-w-3xl mb-8">
       {homePageContent.description}
     </p>
     <div class="flex items-center gap-4 group w-fit">
