@@ -1,8 +1,8 @@
 ---
 
-import type { SocialLink } from "../types/config";
+
 const currentYear = new Date().getFullYear();
-type Props = SocialLink;
+
 
 const { title, url, icon, external } = Astro.props;
 ---
@@ -17,9 +17,7 @@ const { title, url, icon, external } = Astro.props;
 		<p>&copy; {currentYear} Lee Bezuidenhout</p>
 	</div>
 	<p class="socials">
-		<a href="https://twitter.com/me"> Twitter</a>
-		<a href="https://github.com/me"> GitHub</a>
-		<a href="https://codepen.io/me"> CodePen</a>
+		
 	</p>
 </footer>
 <style>

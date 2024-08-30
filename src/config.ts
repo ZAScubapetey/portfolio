@@ -167,7 +167,7 @@ export const projectsPageContent: ProjectPageContent = {
     description: "Check out what I've been working on recently.",
     image: identity.logo,
   },
-  subtitle: "Check out what I've been working on rrecently.",
+  subtitle: "Check out what I've been working on recently.",
   projects: [
     {
       title: "API Development for TXD Systems",
