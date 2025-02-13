@@ -11,7 +11,7 @@ import type {
 export const identity: Identity = {
   name: "Lee Bezuidenhout",
   logo: "/favicon-32x32.png",
-  person:"/Lee.jpg",
+  person:"/self.jpg",
   email: "Lee@bezuidenhout.net.za",
 };
 
@@ -55,10 +55,11 @@ export const homePageContent: HomePageContent = {
       "Dedicated and results-driven IT Manager and Business owner with experience in managing operations",
     image: identity.logo,
   },
-  role: "IT Manager and Labour Relations",
+  role: "IT Manager and Developer",
   description:
     `Hey there! I'm an IT solutions expert and entrepreneur. <br>
-    I thrive on making things tick in the tech world and have a knack for turning chaos into order.  <br>With a solid background in system administration, data analysis, and team leadership, I'm rather useful to turn your IT problems into solutions. `,
+    I thrive on making things tick in the tech world and have a knack for turning chaos into order.  <br>With a solid background in system administration, data analysis, and team leadership, I'm rather useful to turn your IT problems into solutions.<br><br>`,
+  
   socialLinks: socialLinks,
   links: [
     {
@@ -80,7 +81,7 @@ export const aboutPageContent: AboutPageContent = {
      "Dedicated and results-driven IT Manager and Business owner with experience in managing operations",
     image: identity.logo,
   },
-  subtitle: "Some information about myself",
+  subtitle: "",
   about: {
     description: `
 Life isn't just about codes and algorithms, right? When I'm not juggling bytes and bits, you'll find me lost in the fantastical realms of science fiction and fantasy. And let's not forget my soft spot for a glass of wine and whipping up some epic new dishes in the kitchen. Practical problem-solving is my jam, especially when the braaivleis fire is roaring!
@@ -177,6 +178,13 @@ export const projectsPageContent: ProjectPageContent = {
   },
   subtitle: "Check out what I've been working on recently.",
   projects: [
+    {
+      title: "Custom Moodle Them/Element Development",
+      description: 'Custom theme and element development for the client in their current hosted space. This project included technical building of courses and materials provided by the course developer. <br/><br/> Technology used: HTML, CSS, Javascript, Moodle',
+      image: "/mindworx.jpg",
+      year: "Sep 2024 - Jan 2025",
+      url: "https://academylms.mindworx.co.za/",
+    },
     {
       title: "API Development for TXD Systems",
       description: 'Custom-built API developed in Python with FastApi using JWT bearer tokens and Bcrypt to store user details to gain access to temperature monitoring system hosting in a mariaDB. <br/>For this project, I had to gain experience in database design and best practices to keep your database simple and efficient. <br/>The project will be launched in the next few months as the company still needs to finalize the hardware system. <br/><br/> Technology used: Python, FastAPI, Nginx, MariaDB, Docker',
